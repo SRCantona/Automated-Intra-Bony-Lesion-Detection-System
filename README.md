@@ -1,5 +1,6 @@
+![image](https://github.com/user-attachments/assets/0552cef2-b050-4c63-8cdf-913cb60c8fc3)
+
 # 🌟 LesionLens: Automated Detection of Intra-Bony Jaw Lesions
-![image](https://github.com/user-attachments/assets/e4663a3b-e650-4c72-a04b-10595346d338)
 
 Welcome to **LesionLens**, an end-to-end AI pipeline that transforms panoramic dental X‑rays into actionable clinical insights—lightning-fast lesion detection powered by YOLOv11, seamless dataset management via Roboflow, and an intelligent AI agent for instant report generation.
 
