@@ -1,1 +1,0 @@
-# Automated-Intra-Bony-Lesion-Detection-System
