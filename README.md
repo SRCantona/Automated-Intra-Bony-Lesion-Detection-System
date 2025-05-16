@@ -101,33 +101,33 @@ Users can edit their contact information and update demographic details such as 
 
 Preprocessing
 
-Grayscale conversion, histogram equalization.
+- Grayscale conversion, histogram equalization.
 
-Resize to 640×640 px, normalize.
+- Resize to 640×640 px, normalize.
 
 Augmentation
 
-Geometric: random rotation (±15°), horizontal/vertical flips, scaling (±10%), translation (±10%).
-Photometric: brightness adjustment (±20%), contrast jitter, Gaussian blur, Gaussian noise.
+- Geometric: random rotation (±15°), horizontal/vertical flips, scaling (±10%), translation (±10%).
+- Photometric: brightness adjustment (±20%), contrast jitter, Gaussian blur, Gaussian noise.
 
 ![image](https://github.com/user-attachments/assets/e1b69671-8ccf-4f41-b3ed-10786d279d5c)
 
 ![image](https://github.com/user-attachments/assets/744ae392-d974-4bc1-ab3f-f887febe2257)
 Training
 
-Optimizer: SGD (LR=0.01, momentum=0.9).
+- Optimizer: SGD (LR=0.01, momentum=0.9).
 
-Epochs: 150 with early stopping.
+- Epochs: 150 with early stopping.
 
-Batch size: 16, mixed precision.
+- Batch size: 16, mixed precision.
 
 Validation
 
-Monitor mAP metrics, checkpoint best weights.
+- Monitor mAP metrics, checkpoint best weights.
 
 Testing & Inference
 
-Generate JSON detection outputs + annotated PNGs.
+- Generate JSON detection outputs + annotated PNGs.
 
 ---
 
